@@ -42,14 +42,16 @@ Aplicación web construida con **React** y **Vite** que permite buscar y mostrar
 
 ## Estructura del proyecto
 
+```plaintext
 src/
 ├── components/
-│ ├── AddCategory.jsx # Componente para agregar nuevas categorías
-│ ├── GifGrid.jsx # Muestra la grilla de GIFs por categoría
-│ ├── GifItem.jsx # Componente para mostrar cada GIF individual
-│ └── index.js # Reexporta todos los componentes
+│   ├── AddCategory.jsx       # Componente para agregar nuevas categorías
+│   ├── GifGrid.jsx           # Muestra la grilla de GIFs por categoría
+│   ├── GifItem.jsx           # Componente para mostrar cada GIF individual
+│   └── index.js              # Reexporta todos los componentes
 ├── hooks/
-│ └── useFetchGifs.js # Hook personalizado para obtener GIFs desde la API
+│   └── useFetchGifs.js       # Hook personalizado para obtener GIFs desde la API
 ├── helpers/
-│ └── getGifs.js # Función para llamar a la API de Giphy
-└── App.jsx # Componente principal
+│   └── getGifs.js            # Función para llamar a la API de Giphy
+└── App.jsx                   # Componente principal
+```
